@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
 
 interface AppProps {
   message?: string;
@@ -10,7 +11,7 @@ interface AppProps {
 const App: React.FunctionComponent<AppProps> = ({ message, name }) => {
   return (
     <div>
-      {message}. {name}
+      <Counter />
     </div>
   );
 };
