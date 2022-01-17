@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <App message="Hello, React" name="My Name" />,
+  <App message="Hello, React" />,
   document.getElementById('root')
 );
 // If you want to start measuring performance in your app, pass a function
